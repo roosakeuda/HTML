@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    table {
+        width: 450px;
+        border-collapse: collapse;
+    }
+    table thead td, thead th{
+        font-weight: bold;
+        background-color: #cbc9c9;
+    }
+    td {
+        border: 1px solid #999;
+        text-align: right;
+    }
+    th {
+        text-align: left;
+    }
+    table tbody tr:nth-child(odd) {
+        background-color: #eeeeee;
+    }
+    table tbody tr:nth-child(even) {
+        background-color: #ffffff;
+    }
+    
+ 
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th>Kuvaus</th>
+            <td>Määrä</td>
+            <td>Hinta</td>
+        </thead>
+        <tr>
+
+            <th>Omena</th>
+            <td>1 kg.</td>
+            <td>2,39€</td>
+        </tr>
+        <tr>
+            <th>Banaani</th>
+            <td>1,2 kg</td>
+            <td>1,29€</td>
+        </tr>
+        <tr>
+            <th>Appelsiini</th>
+            <td>1 kg</td>
+            <td>3,00€</td>
+        </tr>
+        <tr>
+            <th>Mandariini</th>
+            <td>1,7 kg</td>
+            <td>4,92€</td>
+        </tr>
+        <tr>
+            <td colspan=2><strong>Yhteensä</strong></td colspan=2>
+            <td><strong>11,60€</strong></td>
+        </tr>
+    </table>
+</body>
+</html>
