@@ -1,0 +1,45 @@
+li{
+    background-color: rgb(247, 245, 244);
+    border-radius: 10px;
+}
+
+.kuva{
+    text-align: center;
+}
+
+.alku h1 {
+    text-align: center;
+    border-top: 5px solid #4EA0D9;
+    padding-top: 3%;
+}
+
+.alku h4 {
+    text-align: center;
+}
+
+.pointti p {
+    font: bold;
+}
+
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    line-height: 150%;
+}
+
+#left {
+    float: left;
+    width: 48%;
+}
+
+#right {
+    float: right;
+    width: 48%;
+    border: 5px solid #4EA0D9;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(247, 245, 244);
+}
