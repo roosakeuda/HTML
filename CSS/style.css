@@ -1,0 +1,64 @@
+body {
+    color: green;
+    font-family: Verdana, Arial, Geneva, Helvetica;
+    background-color: burlywood;
+    font-size: 12px;
+    margin: 0;
+}
+        
+h1, h2 {
+    text-decoration: underline;
+    font-size: 150%;
+    text-align: center;
+}
+
+h1 {
+    color: pink;
+}
+
+
+.paragraph {
+    color: red;
+    font-size: 10px;
+    line-height: 1.5em;
+    background-color: #e5e4d7;
+    padding: 10px;
+    border-width: 10px 5px;
+    border-style: solid;
+    border-color: black;
+    margin: 0px 20px 20px 20px;
+    background-image: url(pilvet.png);
+
+
+
+}
+
+.para4 {
+    color: black;
+    font-size: 10px;
+    line-height: 1.5em;
+    background-color: #e5e4d7;
+    padding: 10px;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: blue;
+    margin: 0px 10px;
+    margin-left: 400px;
+}
+
+.mainimg {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 3px;
+    background-color: silver;
+}
+
+#kappale4 {
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    background-color: beige;
+    border: dashed medium red;
+}
